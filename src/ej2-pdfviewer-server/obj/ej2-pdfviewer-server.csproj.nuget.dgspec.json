@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/elmquist/development/xpdtr-server/src/ej2-pdfviewer-server/ej2-pdfviewer-server.csproj": {}
+  },
+  "projects": {
+    "/Users/elmquist/development/xpdtr-server/src/ej2-pdfviewer-server/ej2-pdfviewer-server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elmquist/development/xpdtr-server/src/ej2-pdfviewer-server/ej2-pdfviewer-server.csproj",
+        "projectName": "ej2-pdfviewer-server",
+        "projectPath": "/Users/elmquist/development/xpdtr-server/src/ej2-pdfviewer-server/ej2-pdfviewer-server.csproj",
+        "packagesPath": "/Users/elmquist/.nuget/packages/",
+        "outputPath": "/Users/elmquist/development/xpdtr-server/src/ej2-pdfviewer-server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elmquist/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.0.2105168, )"
+            },
+            "Syncfusion.EJ2.PdfViewer.AspNet.Core.Linux": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
