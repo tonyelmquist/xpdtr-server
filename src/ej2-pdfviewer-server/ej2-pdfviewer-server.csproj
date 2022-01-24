@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <NoWin32Manifest>true</NoWin32Manifest>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
   </PropertyGroup>
 
   <ItemGroup>
