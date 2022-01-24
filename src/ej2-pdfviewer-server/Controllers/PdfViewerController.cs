@@ -45,7 +45,7 @@ namespace ej2_pdfviewer_web_service.Controllers
                 pdfviewer = new PdfRenderer(_mCache, _dCache, _slidingTime);
             else
                 pdfviewer = new PdfRenderer(_mCache);
-            PdfRenderer.ReferencePath = _hostingEnvironment.WebRootPath + "\\Data\\";  
+           
             MemoryStream stream = new MemoryStream();
             object jsonResult = new object();
             if (jsonObject != null && jsonObject.ContainsKey("document"))
